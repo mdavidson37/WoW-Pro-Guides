@@ -1,0 +1,164 @@
+local guide = WoWPro:RegisterGuide('Fury Incarnate', 'Achievements', 'Stormwind City', 'WoWPro Team', 'Alliance')
+WoWPro:GuideName(guide,"Fury Incarnate")
+WoWPro:GuideLevels(guide,1, 60)
+WoWPro:GuideNextGuide(guide, 'ChromieTime')
+WoWPro:GuideSteps(guide, function()
+return [[
+A A Single Wing|QID|76592|M|23.26,37.21|Z|2112|N|From Scalecommander Emberthal.|
+C A Single Wing|QID|76592|M|74.01,54.75|Z|2024|QO|1|NC|N|Find Marithos in the Azure Span.|
+T A Single Wing|QID|76592|M|74.00,54.83|Z|2024|N|To Amythora.|
+A Getting to Ground|QID|77098|PRE|76592|M|74.00,54.83|Z|2024|N|From Amythora.|
+C Getting to Ground|QID|77098|M|74.78,55.03|Z|2024|QO|1|NC|N|Escort Amythora and Marithos to safety.|
+T Getting to Ground|QID|77098|M|74.82,55.05|Z|2024|N|To Scalecommander Emberthal.|
+A Seeing Reason|QID|77163|PRE|77098|M|74.82,55.05|Z|2024|N|From Scalecommander Emberthal.|
+A The Best Intentions|QID|76593|PRE|77098|M|74.82,55.05|Z|2024|N|From Amythora.|
+A Dracthyr Down|QID|76594|PRE|77098|M|74.82,55.05|Z|2024|N|From Amythora.|
+A Test Your Strength|QID|29433|M|74.77,55.01|Z|2024|
+A Test Your Strength|QID|29433|M|74.74,54.98|Z|2024|
+C Dracthyr Down|QID|76594|M|74.83,55.07|Z|2024|QO|2|NC|N|Heal Marithos (Optional).|
+C Seeing Reason|QID|77163|M|73.46,53.57|Z|2024|QO|1|NC|N|Quartermaster Doros Confronted.|
+C Dracthyr Down|QID|76594|M|73.24,54.37|Z|2024|QO|1|NC|N|Wingfoil.|
+C The Best Intentions|QID|76593|M|72.75,54.48|Z|2024|QO|1|NC|N|Sundered Shackles Key.|
+T The Best Intentions|QID|76593|M|74.80,55.06|Z|2024|N|To Amythora.|
+A Aberrus, the Shadowed Crucible: Echoes of the Earth-Warder|QID|76085|M|74.80,55.06|Z|2024|
+T Dracthyr Down|QID|76594|M|74.80,55.06|Z|2024|N|To Amythora.|
+A Aberrus, the Shadowed Crucible: Echoes of the Earth-Warder|QID|76085|M|74.80,55.06|Z|2024|
+T Seeing Reason|QID|77163|M|74.83,55.05|Z|2024|N|To Scalecommander Emberthal.|
+A Urgent Exfiltration|QID|76595|PRE|77163|M|74.83,55.05|Z|2024|N|From Scalecommander Emberthal.|
+A Aberrus, the Shadowed Crucible: Echoes of the Earth-Warder|QID|76085|M|74.83,55.05|Z|2024|
+C Urgent Exfiltration|QID|76595|M|74.57,54.86|Z|2024|QO|1|NC|N|Secure the perimeter.|
+C Urgent Exfiltration|QID|76595|M|74.50,54.84|Z|2024|QO|2|NC|N|Defend against the Sundered Flame.|
+T Urgent Exfiltration|QID|76595|M|74.86,55.09|Z|2024|N|To Scalecommander Emberthal.|
+A Aberrus, the Shadowed Crucible: Echoes of the Earth-Warder|QID|76085|M|74.86,55.09|Z|2024|
+A On New Wings|QID|76597|M|74.85,55.07|Z|2024|N|From Scalecommander Emberthal.|
+A Aberrus, the Shadowed Crucible: Echoes of the Earth-Warder|QID|76085|M|74.64,54.98|Z|2024|
+T On New Wings|QID|76597|M|23.03,37.45|Z|2112|N|To Scalecommander Emberthal.|
+A Aberrus, the Shadowed Crucible: Echoes of the Earth-Warder|QID|76085|M|23.27,38.03|Z|2112|
+T A Sentinel's Summon|QID|76982|M|50.13,53.28|Z|2112|N|To Shandris Feathermoon.|
+A Aberrus, the Shadowed Crucible: Echoes of the Earth-Warder|QID|76085|M|50.13,53.28|Z|2112|
+A Fire Season|QID|75918|M|50.30,52.98|Z|2112|N|From Shandris Feathermoon.|
+A Ohn'ahran Banners|QID|70780|M|89.41,36.26|Z|2023|
+T Fire Season|QID|75918|M|18.64,79.74|Z|2023|N|To Shandris Feathermoon.|
+A Aberrus, the Shadowed Crucible: Echoes of the Earth-Warder|QID|76085|M|18.64,79.74|Z|2023|
+A Dousing the Wards|QID|75919|M|18.64,79.74|Z|2023|N|From Shandris Feathermoon.|
+A Eyes of Fire|QID|75920|M|18.64,79.74|Z|2023|N|From Shandris Feathermoon.|
+C Eyes of Fire|QID|75920|M|18.90,80.37|Z|2023|QO|1|N|Fyrakk's forces slain.|
+C Dousing the Wards|QID|75919|M|20.34,82.33|Z|2023|QO|1|NC|N|Warding Firestones destroyed.|
+T Dousing the Wards|QID|75919|M|20.44,82.26|Z|2023|N|To Shandris Feathermoon.|
+A Aberrus, the Shadowed Crucible: Echoes of the Earth-Warder|QID|76085|M|20.44,82.26|Z|2023|
+T Eyes of Fire|QID|75920|M|20.43,82.27|Z|2023|N|To Shandris Feathermoon.|
+A Through the Flames|QID|75921|PRE|75920|M|20.43,82.27|Z|2023|N|From Shandris Feathermoon.|
+A Proving in Battle|QID|72166|M|20.43,82.27|Z|2023|N|From Burning Flamespeaker.|
+C Through the Flames|QID|75921|M|20.42,81.06|Z|2023|QO|1|NC|N|Approach the flower.|
+C Through the Flames|QID|75921|M|20.38,80.92|Z|2023|QO|2|CHAT|N|Speak with Shandris.|
+C Through the Flames|QID|75921|M|21.28,78.57|Z|2023|QO|3|NC|N|Smoldering Blossom.|
+C Through the Flames|QID|75921|M|21.83,77.38|Z|2023|QO|4|NC|N|Reach the hiding spot.|
+T Through the Flames|QID|75921|M|21.89,77.32|Z|2023|N|To Shandris Feathermoon.|
+A Aberrus, the Shadowed Crucible: Echoes of the Earth-Warder|QID|76085|M|21.89,77.32|Z|2023|
+A Inflammatory Information|QID|75922|M|21.89,77.32|Z|2023|N|From Shandris Feathermoon.|
+C Inflammatory Information|QID|75922|M|21.89,77.32|Z|2023|QO|1|NC|N|Eavesdrop with Shandris.|
+C Inflammatory Information|QID|75922|M|21.99,76.11|Z|2023|QO|2|N|Larodar defeated.|
+T Inflammatory Information|QID|75922|M|21.69,77.02|Z|2023|N|To Shandris Feathermoon.|
+A Raise the Alarm|QID|75923|PRE|75922|M|21.69,77.02|Z|2023|N|From Shandris Feathermoon.|
+A Raise the Alarm|QID|75923|M|21.69,77.02|Z|2023|
+C Raise the Alarm|QID|75923|M|21.67,77.12|Z|2023|QO|1|NC|N|Use the Sentinel's Whistle to return to Valdrakken (Optional).|
+C Raise the Alarm|QID|75923|M|56.09,40.41|Z|2112|QO|2|NC|N|Report delivered to Captain Drine.|
+C Raise the Alarm|QID|75923|M|52.77,46.69|Z|2112|QO|3|NC|N|Use the Drakonid Grapple (Optional).|
+C Raise the Alarm|QID|75923|M|53.04,46.85|Z|2112|QO|4|NC|N|Follow guards to the lower ledge.|
+C Raise the Alarm|QID|75923|M|54.38,47.43|Z|2112|QO|5|CHAT|N|Speak to Captain Drine.|
+T Raise the Alarm|QID|75923|M|53.72,46.46|Z|2112|N|To Captain Drine.|
+A Aberrus, the Shadowed Crucible: Echoes of the Earth-Warder|QID|76085|M|57.14,41.84|Z|2112|
+A Time-Lost and Found|QID|70072|M|58.05,78.71|Z|2025|
+A Aberrus, the Shadowed Crucible: Echoes of the Earth-Warder|QID|76085|M|59.34,81.55|Z|2025|
+A No Limits|QID|76423|M|59.32,81.55|Z|2025|N|From Chromie.|
+T No Limits|QID|76423|M|65.52,80.29|Z|2025|N|To Nozdormu.|
+A What Makes an Infinite|QID|77417|PRE|76423|M|65.52,80.29|Z|2025|N|From Nozdormu.|
+C What Makes an Infinite|QID|77417|M|65.53,80.21|Z|2025|QO|1|NC|N|Ask about Moraidormi.|
+T What Makes an Infinite|QID|77417|M|65.52,80.26|Z|2025|N|To Nozdormu.|
+A Not Today, Fate|QID|76407|PRE|77417|M|65.52,80.26|Z|2025|N|From Nozdormu.|
+C Not Today, Fate|QID|76407|M|65.54,80.13|Z|2025|QO|1|NC|N|Time Rift used.|
+C Not Today, Fate|QID|76407|M|37.48,83.99|Z|71|QO|2|CHAT|N|Speak to Eternus.|
+C Not Today, Fate|QID|76407|M|37.49,83.69|Z|71|QO|3|NC|N|Help Eternus unpause time.|
+C Not Today, Fate|QID|76407|M|37.49,83.69|Z|71|QO|4|NC|N|History observed.|
+T Not Today, Fate|QID|76407|M|37.56,83.80|Z|71|N|To Nozdormu.|
+A Violence Will Solve It|QID|76419|PRE|76407|M|37.47,83.68|Z|71|N|From Eternus.|
+C Violence Will Solve It|QID|76419|M|37.55,83.79|Z|71|QO|1|NC|N|Time reversed.|
+C Violence Will Solve It|QID|76419|M|37.75,82.85|Z|71|QO|2|NC|N|Vexemia confronted.|
+T Violence Will Solve It|QID|76419|M|37.94,83.18|Z|71|N|To Eternus.|
+A Butterfly Effects|QID|76420|PRE|76419|M|37.94,83.18|Z|71|N|From Eternus.|
+C Butterfly Effects|QID|76420|M|37.55,83.79|Z|71|QO|1|NC|N|Time reversed.|
+C Butterfly Effects|QID|76420|M|38.49,83.61|Z|71|QO|2|NC|N|Quickened Sand collected from Timeline Fractures.|
+C Butterfly Effects|QID|76420|M|37.91,83.08|Z|71|QO|3|NC|N|Invulnerable Hourglass placed.|
+C Butterfly Effects|QID|76420|M|37.49,83.68|Z|71|QO|4|NC|N|Results observed.|
+T Butterfly Effects|QID|76420|M|37.48,83.64|Z|71|N|To Eternus.|
+A The Fate We Make|QID|76421|PRE|76420|M|37.48,83.64|Z|71|N|From Eternus.|
+C The Fate We Make|QID|76421|M|37.55,83.80|Z|71|QO|1|NC|N|Time reversed.|
+C The Fate We Make|QID|76421|M|37.49,83.67|Z|71|QO|2|NC|N|Ask Eternus to stop pausing.|
+C The Fate We Make|QID|76421|M|37.49,83.67|Z|71|QO|3|NC|N|History reviewed.|
+C The Fate We Make|QID|76421|M|37.85,83.24|Z|71|QO|4|NC|N|Moraidormi investigated.|
+T The Fate We Make|QID|76421|M|37.47,83.69|Z|71|N|To Eternus.|
+A Infinity and Beyond|QID|76422|PRE|76421|M|37.75,83.29|Z|71|N|From Nozdormu.|
+C Infinity and Beyond|QID|76422|M|37.41,84.15|Z|71|QO|1|NC|N|Time Rift used (Optional).|
+A Climbing|QID|72560|PRE|76421|M|65.55,80.07|Z|2025|
+C Infinity and Beyond|QID|76422|M|65.42,80.36|Z|2025|QO|2|CHAT|N|Speak with Chromie.|
+T Infinity and Beyond|QID|76422|M|65.48,80.27|Z|2025|N|To Nozdormu.|
+A Stolen Bandages|QID|71164|PRE|76422|M|46.18,61.08|Z|2025|
+A A Dislocated Disc|QID|75632|PRE|76422|M|61.09,38.74|Z|2112|N|From Nozdormu.|
+A Stolen Bandages|QID|71164|PRE|76422|M|45.20,59.01|Z|2025|N|From Nozdormu.|
+T A Dislocated Disc|QID|75632|M|60.41,58.98|Z|2025|N|To Eternus.|
+A We Have the Technology|QID|75633|PRE|75632|M|60.41,58.98|Z|2025|N|From Eternus.|
+C We Have the Technology|QID|75633|M|60.41,58.98|Z|2025|QO|1|CHAT|N|Speak to Chromie.|
+T We Have the Technology|QID|75633|M|60.41,58.91|Z|2025|N|To Travard.|
+A Reforging the Tyr's Guard|QID|75634|PRE|75633|M|60.41,58.91|Z|2025|N|From Travard.|
+T Reforging the Tyr's Guard|QID|75634|M|17.62,31.53|Z|2024|N|To Travard.|
+A Walking the Path of Tyr|QID|76171|PRE|75634|M|17.62,31.53|Z|2024|N|From Travard.|
+C Walking the Path of Tyr|QID|76171|M|17.58,31.48|Z|2024|QO|2|NC|N|Exemplar of Order equipped.|
+C Walking the Path of Tyr|QID|76171|M|17.61,31.36|Z|2024|QO|4|NC|N|Exemplar of Sacrifice equipped.|
+C Walking the Path of Tyr|QID|76171|M|17.63,31.41|Z|2024|QO|3|NC|N|Exemplar of Compassion equipped.|
+C Walking the Path of Tyr|QID|76171|M|17.63,31.41|Z|2024|QO|1|NC|N|Exemplar of Justice equipped.|
+T Walking the Path of Tyr|QID|76171|M|17.62,31.54|Z|2024|N|To Travard.|
+A An Exemplar of Order: Talthis|QID|75951|PRE|76171|M|17.58,31.49|Z|2024|N|From Talthis.|
+A An Exemplar of Sacrifice: Nolaki|QID|75952|PRE|76171|M|17.57,31.41|Z|2024|N|From Nolaki.|
+A An Exemplar of Compassion: Valunei|QID|75953|PRE|76171|M|17.61,31.36|Z|2024|N|From Valunei.|
+A An Exemplar of Justice: Hadwin|QID|75950|PRE|76171|M|17.63,31.43|Z|2024|N|From Hadwin.|
+C An Exemplar of Justice: Hadwin|QID|75950|M|17.42,38.79|Z|2024|QO|1|N|Rotpaw slain.|
+C An Exemplar of Order: Talthis|QID|75951|M|18.30,35.32|Z|2024|QO|1|NC|N|Recovered Tuskarr Relic.|
+C An Exemplar of Order: Talthis|QID|75951|M|18.87,35.00|Z|2024|QO|2|NC|N|Return the Tuskarr Relics to Talthis.|
+C An Exemplar of Compassion: Valunei|QID|75953|M|11.69,37.89|Z|2024|QO|1|CHAT|N|Speak to Valunei in Brackenhide Hollow (Optional).|
+C An Exemplar of Compassion: Valunei|QID|75953|M|11.68,38.31|Z|2024|QO|2|NC|N|Protect Valunei from gnolls.|
+C An Exemplar of Sacrifice: Nolaki|QID|75952|M|16.82,30.08|Z|2024|QO|1|NC|N|Find Nolaki (Optional).|
+C An Exemplar of Sacrifice: Nolaki|QID|75952|M|16.79,30.14|Z|2024|QO|2|NC|N|Nolaki assisted.|
+T An Exemplar of Justice: Hadwin|QID|75950|M|17.65,31.41|Z|2024|N|To Hadwin.|
+T An Exemplar of Compassion: Valunei|QID|75953|M|17.63,31.36|Z|2024|N|To Valunei.|
+T An Exemplar of Sacrifice: Nolaki|QID|75952|M|17.58,31.39|Z|2024|N|To Nolaki.|
+T An Exemplar of Order: Talthis|QID|75951|M|17.56,31.45|Z|2024|N|To Talthis.|
+A For Tyr!|QID|75635|PRE|75950&75953&75952&75951|M|17.59,31.50|Z|2024|N|From Travard.|
+C For Tyr!|QID|75635|M|59.76,58.79|Z|2025|QO|1|CHAT|N|Speak to Travard at Tyrhold.|
+T For Tyr!|QID|75635|M|59.95,58.72|Z|2025|N|To Travard.|
+A First Steps|QID|76176|PRE|75635|M|59.95,58.72|Z|2025|N|From Travard.|
+C First Steps|QID|76176|M|60.31,58.86|Z|2025|QO|1|NC|N|Meet Chromie in Tyrhold.|
+T First Steps|QID|76176|M|60.42,58.89|Z|2025|N|To Chromie.|
+A Tyrangulation|QID|75636|PRE|76176|M|60.39,58.83|Z|2025|N|From Eternus.|
+C Tyrangulation|QID|75636|M|60.43,58.75|Z|2025|QO|1|NC|N|Portal Taken to Temple of Order.|
+C Tyrangulation|QID|75636|M|53.38,42.24|Z|120|QO|2|NC|N|Protect Travard (100%).|
+C Tyrangulation|QID|75636|M|52.74,42.34|Z|120|QO|3|NC|N|Take the Portal to Tyrhold.|
+T Tyrangulation|QID|75636|M|60.39,58.75|Z|2025|N|To Chromie.|
+A The Final Beacon|QID|75637|PRE|75636|M|60.38,58.72|Z|2025|N|From Travard.|
+C The Final Beacon|QID|75637|M|60.48,58.84|Z|2025|QO|1|NC|N|Talthis and Valunei's portal taken.|
+C The Final Beacon|QID|75637|M|49.20,67.47|QO|2|CHAT|N|Speak to Valunei.|
+C The Final Beacon|QID|75637|M|49.20,67.48|QO|3|N|Deceiver Hr'qoth slain.|
+C The Final Beacon|QID|75637|M|47.68,47.48|QO|4|NC|N|Protect the Beacon (100%).|
+C The Final Beacon|QID|75637|M|48.91,37.68|QO|5|NC|N|Take the Portal to Tyrhold.|
+T The Final Beacon|QID|75637|M|60.45,58.91|Z|2025|N|To Travard.|
+A Dislocated Disc Located|QID|75638|PRE|75637|M|60.45,58.91|Z|2025|N|From Travard.|
+C Dislocated Disc Located|QID|75638|M|60.36,58.84|Z|2025|QO|2|CHAT|N|Speak with Nolaki (Optional).|
+C Dislocated Disc Located|QID|75638|M|60.32,58.86|Z|2025|QO|5|CHAT|N|Speak with Valunei.|
+C Dislocated Disc Located|QID|75638|M|60.50,58.97|Z|2025|QO|3|CHAT|N|Speak with Talthis (Optional).|
+C Dislocated Disc Located|QID|75638|M|60.50,59.02|Z|2025|QO|4|CHAT|N|Speak with Hadwin (Optional).|
+C Dislocated Disc Located|QID|75638|M|60.45,58.95|Z|2025|QO|1|CHAT|N|Speak with Travard (Optional).|
+T Dislocated Disc Located|QID|75638|M|60.45,58.95|Z|2025|N|To Travard.|
+A Aberrus, the Shadowed Crucible: Echoes of the Earth-Warder|QID|76085|M|61.58,47.54|Z|1978|
+A Aberrus, the Shadowed Crucible: Echoes of the Earth-Warder|QID|76085|M|54.00,56.97|Z|2025;Thaldraszus|
+]]
+
+end)
