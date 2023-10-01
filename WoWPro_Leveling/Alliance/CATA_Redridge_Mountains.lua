@@ -159,6 +159,6 @@ A Triumphant Return|QID|26726|M|60.66,36.67|N|From Colonel Troteman.|PRE|26714|
 H Lakeshire|ACTIVE|26726|M|33.24,40.69|TZ|Lakeshire Inn|N|Hearth back to Lakeshire Inn, or run if your hearth is on cooldown.|
 T Triumphant Return|QID|26726|M|28.91,41.11|N|To Magistrate Solomon in the town hall.|
 N If you plan on going to Duskwood pick up the next two quest. If you dont just skip it.|
-A Hero's Call: Duskwood!|AVAILABLE|26728|M|28.91,41.11|N|From Captain Danuvin.|
+A Hero's Call: Duskwood!|AVAILABLE|26728|M|28.91,41.11|N|From Bailiff Conacher.|
 ]]
 end)
