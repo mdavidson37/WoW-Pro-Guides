@@ -150,6 +150,7 @@ T Mossy Tumors|QID|923|Z|57;Teldrassil|M|43.89,44.11|N|To Rellian Greenspyre.|
 A Oakenscowl|QID|2499|PRE|923|Z|57;Teldrassil|M|43.89,44.11|N|From Denalan.|
 C Oakenscowl|QID|2499|Z|57;Teldrassil|M|47.34,34.83|N|Kill and loot Oakenscowl to get the Gargantuan Tumor.|
 T Oakenscowl|QID|2499|Z|57;Teldrassil|M|43.93,44.22|N|To Denlan.|
+T The Shimmering Frond|QID|931|Z|57;Teldrassil|M|43.92,33.27.75|N|Turn in to Denalan.|
 T Teldrassil: The Burden of the Kaldorei|QID|7383|Z|57;Teldrassil|M|41.02,45.57|N|To Corithras Moonrage.|
 A Teldrassil: The Coming Dawn|QID|933|PRE|7383|Z|57;Teldrassil|M|41.02,45.57|N|From Corithras Moonrage.|
 C Teldrassil: The Coming Dawn|QID|933|U|5621|Z|57;Teldrassil|M|43.83,58.69|N|Use the Tourmaline Phial at the moonwell.|
@@ -161,7 +162,6 @@ A The Waters of Teldrassil|QID|935|PRE|14005|Z|57;Teldrassil|M|42.51,58.23|N|Fro
 T The Waters of Teldrassil|QID|935|Z|57;Teldrassil|M|41.02,45.77|N|To Corithras Moonrage.|
 A Home of the Kaldorei|QID|14039|PRE|935|Z|57;Teldrassil|M|41.02,45.77|N|From Corithras Moonrage.|
 H Dolanaar|ACTIVE|931|NC|Z|57;Teldrassil|M|55.65,50.04|N|Hearth to Dolanaar.|
-T The Shimmering Frond|QID|931|Z|57;Teldrassil|M|59.94,59.75|N|Turn in to Denalan.|
 A The Sprouted Fronds|PRE|931|QID|2399|Z|57;Teldrassil|M|59.94,59.75|N|Pick up from the Sprouted Fronds. This quest is only available for 1 min be quick picking it up.|
 T The Sprouted Fronds|QID|2399|Z|57;Teldrassil|M|59.94,59.75|N|Turn in this quest to the Sprouted Fronds.|
 F Darnassus|ACTIVE|2399|Z|57;Teldrassil|M|55.46,50.41|N|Fly to Darnassus.|
