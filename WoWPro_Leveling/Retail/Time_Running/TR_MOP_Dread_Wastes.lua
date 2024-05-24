@@ -5,8 +5,6 @@ WoWPro:GuideNickname(guide, "TR_Dread Wastes")
 WoWPro:GuideName(guide,"TR_Dread Wastes")
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|84;Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-60|CT|FACTION|Alliance|
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-60|CT|FACTION|Horde|
 N Dread Wastes|QID|31847^31895^31000^31886^31390^31391^31656|N|There are many lead in quests, when you pick any of them up (except The Threat in the South) it also gives you the flightpath to Serpent's Spine in Vale of Eternal Blossoms (where Bowmistress Li is). This guide starts there.|
 N The Klaxxi Dailies/Rep|QID|31847^31895^31000^31886^31390^31391^31656|N|This zone is focused on the Klaxxi with thier quartermaster located at Klaxxi'vess who sells BS patters and VP gear.  By the time you get there you will probably be lvl 90 and so some of the dailies have been included in the guide.  Since it is random which ones you recieve, the guide doesn't tell you to pick them up, but if you do, the details and turn in will show for the ones you accept.|
 N The Klaxxi Reputation - Honored|QID|31175|REP|The Klaxxi;1337;honored|N|If you have reached honored while doing this guide, please switch to the dailies guide and do all the dalies to unlock things|
@@ -86,9 +84,9 @@ C Amber Is Life|QID|31019|S|QO|1|M|62.3,57.7|; Mistblade Ripper slain: 7/7
 C Mistblade Destruction|QID|31267|S|M|62.3,57.7|
 A Relics of the Swarm|QID|31023|M|67.91,60.19|U|82870|N|Accept from the 'Strange Relic' which drops from the Saurok around the lake.|
 C Relics of the Swarm|QID|31023|S|NC|M|65.65,64.13|N|These are small tablets around and in the lake.|
-C Mistblade Destruction|QID|31023|US|M|62.3,57.7|
+C Mistblade Destruction|QID|31267|US|M|62.3,57.7|
 C Amber Is Life|QID|31019|US|QO|1|M|62.3,57.7|; Mistblade Ripper slain: 7/7
-K Kill Mistblade Scale-Lord|QID|31019|T|Mistblade Scale-Lord|QO|2|M|66.74,63.89;66.5,66.0|CS|N|He is in the den, first coordinates are for the opening. Rarely a BoA tanking sword can be found stuck in the wall in this cave.|; Mistblade Scale-Lord slain: 1/1
+K Kill Mistblade Scale-Lord|ACTIVE|31019|T|Mistblade Scale-Lord|QO|2|M|66.74,63.89;66.5,66.0|CS|N|He is in the den, first coordinates are for the opening. Rarely a BoA tanking sword can be found stuck in the wall in this cave.|; Mistblade Scale-Lord slain: 1/1
 T Amber Is Life|QID|31019|M|66.82,65.35|N|To Ancient Amber Chunk.|
 A Feeding the Beast|QID|31020|PRE|31019|M|66.82,65.35|N|From Korven the Prime.|
 A Living Amber|QID|31021|PRE|31019|M|66.82,65.35|N|From Korven the Prime.|
@@ -135,7 +133,7 @@ C Walking Dog|QID|31185|NC|U|85955|QO|3|M|40.3,79.21|; Bring Dog to the Whale Co
 C Dog Food|QID|31186|US|U|85955|M|43.8,76.4|N|Make sure Dog is around when you kill his food (Rockshell Snapclaws).|
 C On the Crab|QID|31187|US|NC|M|40,79|
 C Shark Week|QID|31188|US|U|85998|N|Kill Sharks, loot Thresher Jaw, extract the teeth from the jaw.|
-T Dog Food|QID|31186|N|To Dog.|
+T Dog Food|QID|31186|M|PLAYER|N|To Dog.|U|85955|
 T On the Crab|QID|31187|M|54.78,72.21|N|To Deck Boss Arie.|
 T Shark Week|QID|31188|M|54.78,72.21|N|To Deck Boss Arie.|
 T Old Age and Treachery|QID|31184|M|55.69,72.47|N|To Captain "Soggy" Su-Dao.|
@@ -225,7 +223,7 @@ C Meltdown|QID|31507|M|23.00,77.60|U|87841|N|Slay 6 Zan'thik Venomstings in Zan'
 C Shackles of Manipulation|QID|31506|N|Drop from Thought-Bound Miners and Thought-Bound Brutes.|US|M|29.20,89.60|; Briny Muck
 C Eradicating the Zan'thik|QID|31111|N|Kill 6 Zan'thik Impalers and 6 Zan'thik Manipulators.|US|M|34.00,71.80|; Briny Muck
 ;end of dailies
-F The Briny Muck|QID|31605|M|55.8,34.9|N|Talk to Kik'tik. Take the flight point if you can't fly yet.|; Flight path to help those not level 90 yet
+;F The Briny Muck|QID|31605|M|55.8,34.9|N|Talk to Kik'tik. Take the flight point if you can't fly yet.|; Flight path to help those not level 90 yet
 R Zan'vess|QID|31605|M|30.2,90.8|N|Dissector's staff of Mutation can be rarely found here (BoA Caster's staff).|
 T The Zan'thik Dig|QID|31605|M|31.82,88.93|N|To Rik'kal the Dissector.|
 A The Dissector Wakens|QID|31606|PRE|31066|M|31.82,88.93|N|From Rik'kal the Dissector.|
@@ -363,7 +361,7 @@ A Once in a Hundred Lifetimes|QID|32030|PRE|31026&31085&31354&31398|M|50.28,12.0
 T Blood of Ancients|QID|31086|M|50.21,12.11|N|To Sapmaster Vu.|
 H Klaxxi'vess|QID|32030|M|55.82,34.83|
 T Once in a Hundred Lifetimes|QID|32030|M|54.69,34.89|N|To Klaxxi'va Ik.|
-A Overthrone|QID|31782|PRE|32030|M|54.69,34.89|
+A Overthrone|QID|31782|PRE|32030|M|54.69,34.89|N|From Klaxxi'va Ik.|
 C Overthrone|QID|31782|M|54.69,34.89|NC|N|Watch the cutscene.|
 T Overthrone|QID|31782|M|55.05,34.19|N|To Klaxxi'va Vor.|
 N Congratulations|N|You have finished Dread Wastes, if you want to continue with Klaxxi faction, check out the Klaxxi's daily guide.|

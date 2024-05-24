@@ -565,7 +565,13 @@ function WoWPro:OnEnable()
 
     WoWPro:dbp("Scan to purge PlayerGetTimerunningSeasonID")
     -- Purge guides that do not match the SeasonID
-    local seasonID = _G.PlayerGetTimerunningSeason and _G.PlayerGetTimerunningSeasonID()
+    local seasonID
+    if _G.PlayerGetTimerunningSeasonID then
+        seasonID = _G.PlayerGetTimerunningSeasonID()
+    else
+        WoWPro:dbp("PlayerGetTimerunningSeasonID function is not available")
+    end
+
     local to_purge = {}
     for gid, guide in pairs(WoWPro.Guides) do
         if guide['TimerunningSeasonID'] ~= seasonID then
@@ -577,6 +583,7 @@ function WoWPro:OnEnable()
         WoWPro:dbp("Purge %q", gid)
         WoWPro.Guides[gid] = nil
     end
+
 
 
     -- Set up the Nickname -> Guide map.
@@ -934,7 +941,7 @@ end
 function WoWPro.ShowGuideMenu()
     WoWPro.BuildGuideInMenuList()
     local menuFrame = _G.CreateFrame("Frame", "WoWPro_Guides", _G.UIParent, "UIDropDownMenuTemplate")
-    menuFrame:SetPoint("Center", _G.UIParent, "Center")
+    menuFrame:SetPoint("CENTER", _G.UIParent, "CENTER")
     _G.EasyMenu(WoWPro.GuideMenuList, menuFrame, menuFrame, 0 , 0, "MENU")
 end
 
@@ -1109,7 +1116,7 @@ function WoWPro:GuideClassSpecific(guide,class)
         return -- Allow developers to check everything, if they want
     end
     if engClass ~= class then
-        WoWPro:UnRegisterGuide(guide,"Guide %s is class specific and you don't match", guide.GID)
+        WoWPro:UnRegisterGuide(guide,("Guide %s is class specific and you don't match"):format(guide.GID))
     end
 end
 
